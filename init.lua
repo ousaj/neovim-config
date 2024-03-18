@@ -15,7 +15,7 @@ vim.opt.wrap = false
 vim.opt.hlsearch = false -- maybe not.
 vim.opt.incsearch = true
 
---vim.o.termguicolors = true
+vim.o.termguicolors = true
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
@@ -39,5 +39,8 @@ inoremap {;<CR> {<CR>};<ESC>O
 inoremap <C-j> <C-n>
 inoremap <C-k> <C-p>
 ]])
+
+
+
 
 
