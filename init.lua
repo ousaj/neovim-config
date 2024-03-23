@@ -38,6 +38,9 @@ inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 inoremap <C-j> <C-n>
 inoremap <C-k> <C-p>
+autocmd FileType markdown setlocal textwidth=80
+autocmd FileType tex setlocal textwidth=80
+autocmd FileType text setlocal textwidth=80
 ]])
 
 
