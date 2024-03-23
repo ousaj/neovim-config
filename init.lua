@@ -28,9 +28,9 @@ vim.api.nvim_set_hl(0, 'NormalFloat', {bg='#3B4252'})
 vim.api.nvim_set_hl(0, 'TelescopeNormal', {bg='#3B4252'})
 vim.api.nvim_set_hl(0, 'TelescopeBorder', {bg='#3B4252'})
 
+
 vim.cmd([[
 inoremap " ""<left>
-inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
@@ -41,6 +41,10 @@ inoremap <C-k> <C-p>
 autocmd FileType markdown setlocal textwidth=80
 autocmd FileType tex setlocal textwidth=80
 autocmd FileType text setlocal textwidth=80
+set scrolloff=8
+nnoremap j jzz
+nnoremap k kzz
+nnoremap G Gzz
 ]])
 
 
